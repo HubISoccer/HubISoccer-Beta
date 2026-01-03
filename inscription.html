@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription | HubISoccer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="sub-header">
+    <h1>Inscription des joueurs</h1>
+    <a href="index.html" class="btn secondary">← Retour à l’accueil</a>
+</header>
+
+<section class="section">
+    <h2>Formulaire d'inscription</h2>
+    <form id="inscription-form" class="form">
+        <input type="text" id="nom" placeholder="Nom" required>
+        <input type="text" id="prenom" placeholder="Prénom" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="tel" id="tel" placeholder="Téléphone" required>
+        <input type="file" id="video" accept="video/*" required>
+        <select id="poste" required>
+            <option value="">Choisir un poste</option>
+            <option value="GK">Gardien</option>
+            <option value="DefCentral">Défenseur central</option>
+            <option value="DefLatG">Défenseur latéral gauche</option>
+            <option value="DefLatD">Défenseur latéral droit</option>
+            <option value="MilDef">Milieu défensif</option>
+            <option value="MilLatG">Milieu latéral gauche</option>
+            <option value="MilLatD">Milieu latéral droit</option>
+            <option value="MilOff">Milieu offensif</option>
+            <option value="AttD">Attaquant droit</option>
+            <option value="AttG">Attaquant gauche</option>
+            <option value="SecondAtt">Second attaquant</option>
+        </select>
+        <button type="submit" class="btn primary large">S'inscrire (8€)</button>
+    </form>
+</section>
+
+<footer class="footer">
+    &copy; 2026 HubISoccer
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
